@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>plug in</title>
+
+</head>
+<body>
+   
+   <div class="container">
+       <div class="row">
+           <div class="col-sm-4 counter">10,520</div>
+           <div class="col-sm-4 counter">12,300</div>
+           <div class="col-sm-4 counter">17,90</div>
+       </div>
+   </div>
+   
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   
+   <script>
+       
+        jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+       
+   </script>
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>     
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+   <script src="js/jquery.counterup.min.js"></script>
+</body>
+</html>
